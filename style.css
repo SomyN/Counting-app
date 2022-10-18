@@ -1,0 +1,14 @@
+.example img {
+    width: 5em;
+    height: 5em;
+    position: relative;
+  }
+  
+  .example .overlay {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+  }
