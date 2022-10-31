@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Embla Carousel Arrows & Dots Vanilla</title>
+    <title>Counting app</title>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <div class="example">
-      <img  class="background-image" src="./orange-ellipse.svg">
-      <div class="overlay">
-        Lorem ipsum dolor sit amet consectetur adipisicing eli
-      </div>
+    <div class="container">
+      <h1>NUMBER OF ENTERIES: </h1>
+      <h2 id="count-el">0</h2>
+    <!--create an INCREMENT button with the id="increment button"-->
+    <button id="increment-btn" onclick="increment()">INCREASE</button>
+    <button id="save-btn" onclick="save()">SAVE</button> 
+    <p id="save-el">Previous enteries:</p>
     </div>
+     <script src="index.js"></script>
   </body>
 </html>
